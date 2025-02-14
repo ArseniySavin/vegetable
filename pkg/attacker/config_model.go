@@ -2,17 +2,15 @@ package attacker
 
 import (
 	"log"
-	"os"
 	"time"
 )
 
 var (
-	responseFile *os.File
 	templateBody []byte
 )
 
 const (
-	responseFileName = "target.response"
+	ResponseFileName = "target.response"
 	targetFilename   = "target.body.json"
 	dataFilename     = "target.data.json"
 	example          = `[
