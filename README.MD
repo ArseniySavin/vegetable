@@ -5,7 +5,7 @@ Declarative load tests use vegeta. Based on templates and generation targets.
 
 ### Example
 ```go
-token := "Bearer {TOKEN}"
+    token := "Bearer {TOKEN}"
 	url := "http://localhost:8080/v1/balance/"
 
 	cfg := attacker.LoadCfg{
